@@ -1,0 +1,7 @@
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+
+python run_live.py
+python run_live.py --mode stable
+python run_sweep.py
